@@ -3,14 +3,19 @@ A simple stateless HTTP server written in Node.js which returns a timestamp, 'He
 This server can be used to check loadbalancing as every instance returns an own unique string.
 
 ## Requirements
-* [Node.js](https://nodejs.org/en/)
+* [Git](https://git-scm.com/) and [Node.js](https://nodejs.org/en/) or [Docker](https://www.docker.com/)
 
-## Usage
+## Source version
+```
+git clone https://github.com/giftkugel/node-hello-server.git
+cd node-hello-server
+```
+
 ```
 node index.js
 ```
 
-## Use Docker image from [Docker Hub](https://hub.docker.com/r/giftkugel/node-hello/) instead
+## Docker image from [Docker Hub](https://hub.docker.com/r/giftkugel/node-hello/)
 
 Pull the image
 ```
