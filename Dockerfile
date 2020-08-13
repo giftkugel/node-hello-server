@@ -1,4 +1,4 @@
-FROM node:8.9.4
+FROM node:lts
 EXPOSE 8080
 
 COPY index.js .
