@@ -19,12 +19,12 @@ node index.js
 
 Pull the image
 ```
-docker pull giftkugel/node-hello:v3
+docker pull giftkugel/node-hello:latest
 ```
 
 Start the container
 ```
-docker run -d -p 8080:8080 giftkugel/node-hello:v3
+docker run -d -p 8080:8080 giftkugel/node-hello:latest
 ```
 
 ## Usage
@@ -34,5 +34,5 @@ curl http://localhost:8080
 
 ### Example response
 ```
-2018-01-25T11:03:14.809Z] Hello World with id 69d53a63d8af71d30e2ba3c02da5c2f5 at /
+[2020-10-19T15:27:18.770Z] Hello World: id=3a5a8f84, path=/test, node=v12.16.1, count=7
 ```
