@@ -1,4 +1,5 @@
-FROM node:lts
+FROM node:lts-slim
+
 EXPOSE 8080
 
 COPY index.js .
